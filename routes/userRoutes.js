@@ -12,6 +12,10 @@ const UserStatus = require('../enums/status');
 const UserRole = require('../enums/role');
 require('dotenv').config();
 
+
+router.get('testingPurpose',(req,res)=>{
+    console.log("hey !It's done .....:)");
+})
 // create a new user
 router.post('/create', async (req, res) => 
 {
