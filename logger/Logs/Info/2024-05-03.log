@@ -1,0 +1,307 @@
+ [INFO]:2024-05-03 15:37:23 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 15:37:47 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 15:47:33 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 15:47:33 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 15:59:31 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 15:59:31 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 16:01:01 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 16:01:01 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 16:01:59 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 16:01:59 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 16:03:38 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 16:03:38 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 16:25:16 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 16:25:16 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 16:26:21 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 16:26:21 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 16:28:28 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 16:28:28 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 16:45:26 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 16:45:26 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 16:47:20 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 16:47:20 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 16:47:22 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 16:47:22 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 16:59:20 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 16:59:20 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 17:02:11 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 17:02:11 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 17:07:59 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 17:07:59 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 17:08:34 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 17:08:34 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 17:40:37 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 17:40:37 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 17:48:24 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [INFO]:2024-05-03 17:48:24 :
+ [UserRoutes] : create-newUser :  : New User Created SuccessFully ...
+New-User : {
+  name: 'abc',
+  email: 'abc@gmail.com',
+  password: 'abc123',
+  role: 'admin',
+  _id: new ObjectId('6634d610fa02b406e0435ed2'),
+  __v: 0
+}  
+ [INFO]:2024-05-03 17:50:29 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [ERROR]:2024-05-03 17:50:29 :
+ [UserRoutes] : create-newUser :  : Error : MongoServerError: E11000 duplicate key error collection: UserAuthentication.users index: email_1 dup key: { email: "abc@gmail.com" } 
+ [INFO]:2024-05-03 17:59:54 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 17:59:55 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 18:00:03 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [ERROR]:2024-05-03 18:00:03 :
+ [UserRoutes] : create-newUser :  : Error : MongoServerError: E11000 duplicate key error collection: UserAuthentication.users index: email_1 dup key: { email: "abc@gmail.com" } 
+ [INFO]:2024-05-03 18:00:47 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [INFO]:2024-05-03 18:00:47 :
+ [UserRoutes] : create-newUser :  : New User Created SuccessFully ...
+New-User : {
+  name: 'pqr',
+  email: 'pqr@gmail.com',
+  password: 'pqr123',
+  role: 'client',
+  _id: new ObjectId('6634d8f75b1e23c68d8a03be'),
+  __v: 0
+}  
+ [INFO]:2024-05-03 18:02:02 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [INFO]:2024-05-03 18:02:02 :
+ [UserRoutes] : create-newUser :  : New User Created SuccessFully ...
+New-User : {
+  name: 'pqr123',
+  email: 'pqr12@gmail.com',
+  password: 'pqr123',
+  role: 'client',
+  _id: new ObjectId('6634d9425b1e23c68d8a03c0'),
+  __v: 0
+}  
+ [INFO]:2024-05-03 18:02:48 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [ERROR]:2024-05-03 18:02:48 :
+ [UserRoutes] : create-newUser :  : Error : MongoServerError: E11000 duplicate key error collection: UserAuthentication.users index: email_1 dup key: { email: "pqr@gmail.com" } 
+ [INFO]:2024-05-03 18:03:11 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [ERROR]:2024-05-03 18:03:11 :
+ [UserRoutes] : create-newUser :  : Error : ValidationError: role: Path `role` is required. 
+ [INFO]:2024-05-03 18:05:19 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 18:05:19 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 18:05:25 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [ERROR]:2024-05-03 18:05:25 :
+ [UserRoutes] : create-newUser :  : Error : ValidationError: role: Path `role` is required. 
+ [INFO]:2024-05-03 18:09:38 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 18:09:38 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 18:09:51 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [ERROR]:2024-05-03 18:09:51 :
+ [UserRoutes] : create-newUser :  : Error : ValidationError: role: Path `role` is required. 
+ [INFO]:2024-05-03 18:10:16 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [ERROR]:2024-05-03 18:10:16 :
+ [UserRoutes] : create-newUser :  : Error : ValidationError: name: Path `name` is required. 
+ [INFO]:2024-05-03 18:10:24 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [ERROR]:2024-05-03 18:10:24 :
+ [UserRoutes] : create-newUser :  : Error : ValidationError: name: Path `name` is required., password: Path `password` is required. 
+ [INFO]:2024-05-03 18:10:54 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [ERROR]:2024-05-03 18:10:54 :
+ [UserRoutes] : create-newUser :  : Error : ValidationError: role: `student` is not a valid enum value for path `role`. 
+ [INFO]:2024-05-03 18:11:10 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [ERROR]:2024-05-03 18:11:10 :
+ [UserRoutes] : create-newUser :  : Error : MongoServerError: E11000 duplicate key error collection: UserAuthentication.users index: email_1 dup key: { email: "pqr@gmail.com" } 
+ [INFO]:2024-05-03 18:26:28 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 18:26:28 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 18:26:53 :
+ [UserRoutes] : All-Users :  : 
+ {
+  _id: new ObjectId('6634d610fa02b406e0435ed2'),
+  name: 'abc',
+  email: 'abc@gmail.com',
+  password: 'abc123',
+  role: 'admin',
+  __v: 0
+},{
+  _id: new ObjectId('6634d8f75b1e23c68d8a03be'),
+  name: 'pqr',
+  email: 'pqr@gmail.com',
+  password: 'pqr123',
+  role: 'client',
+  __v: 0
+} 
+ [INFO]:2024-05-03 18:26:53 :
+ [UserRoutes] : All-Users :  : End 
+ [INFO]:2024-05-03 18:27:48 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 18:27:48 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 18:28:11 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 18:28:11 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 18:29:02 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 18:29:02 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 18:29:12 :
+ [UserRoutes] : All-Users :  : 
+ {
+  _id: new ObjectId('6634d610fa02b406e0435ed2'),
+  name: 'abc',
+  email: 'abc@gmail.com',
+  password: 'abc123',
+  role: 'admin',
+  __v: 0
+},{
+  _id: new ObjectId('6634d8f75b1e23c68d8a03be'),
+  name: 'pqr',
+  email: 'pqr@gmail.com',
+  password: 'pqr123',
+  role: 'client',
+  __v: 0
+} 
+ [INFO]:2024-05-03 18:29:12 :
+ [UserRoutes] : All-Users :  : End 
+ [INFO]:2024-05-03 18:30:56 :
+ [UserRoutes] : Find-User :  :
+ Incoming User Detail :[object Object]  
+ [ERROR]:2024-05-03 18:30:56 :
+ [UserRoutes] : Find-User :  : Error : CastError: Cast to ObjectId failed for value "{}" (type Object) at path "_id" for model "User" 
+ [INFO]:2024-05-03 18:30:56 :
+ [UserRoutes] : Find-User :  : End 
+ [INFO]:2024-05-03 18:31:28 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 18:31:28 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 18:31:34 :
+ [UserRoutes] : Find-User :  :
+ Incoming User Detail :[object Object]  
+ [INFO]:2024-05-03 18:31:34 :
+ [UserRoutes] : Find-User :  : 
+ null 
+ [INFO]:2024-05-03 18:31:34 :
+ [UserRoutes] : Find-User :  : End 
+ [INFO]:2024-05-03 18:32:31 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 18:32:31 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 18:32:38 :
+ [UserRoutes] : Find-User :  :
+ Incoming User Detail :function header(name) {
+  if (!name) {
+    throw new TypeError('name argument is required to req.get');
+  }
+
+  if (typeof name !== 'string') {
+    throw new TypeError('name must be a string to req.get');
+  }
+
+  var lc = name.toLowerCase();
+
+  switch (lc) {
+    case 'referer':
+    case 'referrer':
+      return this.headers.referrer
+        || this.headers.referer;
+    default:
+      return this.headers[lc];
+  }
+}  
+ [INFO]:2024-05-03 18:32:38 :
+ [UserRoutes] : Find-User :  : 
+ {
+  _id: new ObjectId('6634d610fa02b406e0435ed2'),
+  name: 'abc',
+  email: 'abc@gmail.com',
+  password: 'abc123',
+  role: 'admin',
+  __v: 0
+} 
+ [INFO]:2024-05-03 18:32:38 :
+ [UserRoutes] : Find-User :  : End 
+ [INFO]:2024-05-03 18:33:40 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 18:33:40 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 18:54:19 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 18:54:19 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-03 18:59:46 :
+ [UserRoutes] : Find-User :  :
+ Incoming User Detail :[object Object]  
+ [INFO]:2024-05-03 18:59:46 :
+ [UserRoutes] : Find-User :  : 
+ {
+  _id: new ObjectId('6634d610fa02b406e0435ed2'),
+  name: 'abc',
+  email: 'abc@gmail.com',
+  password: 'abc123',
+  role: 'admin',
+  __v: 0
+} 
+ [INFO]:2024-05-03 18:59:46 :
+ [UserRoutes] : Find-User :  : End 
+ [INFO]:2024-05-03 19:17:21 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-03 19:17:21 :
+  Database [MongoDb] connected successfully .... 

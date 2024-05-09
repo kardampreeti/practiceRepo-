@@ -1,0 +1,165 @@
+ [INFO]:2024-05-08 10:37:51 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-08 10:37:51 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-08 10:40:44 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-08 10:40:44 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-08 10:54:20 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-08 10:54:20 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-08 10:56:46 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-08 10:56:46 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-08 10:57:11 :
+ [UserRoutes] : Login-user : Incoming User Login Details : {"email":"stu@gmail.com","password":"stu123"} 
+ [INFO]:2024-05-08 10:57:11 :
+ [UserRoutes] : Login-user : User found: {"_id":"6638a983ca3c510f0c4470d8","name":"stu","email":"stu@gmail.com","password":"$2b$10$6RdNOfnV.0ZvuyzJQa7v9eaERLXHyCh7Q/CMpwRwWcZ.bqGeXaV5i","role":"client","status":"active","__v":0} 
+ [INFO]:2024-05-08 10:57:11 :
+ [UserRoutes] : Login-user : Password verified for user with email stu@gmail.com 
+ [INFO]:2024-05-08 10:57:11 :
+ [UserRoutes] : Login-user : Token generated successfully 
+ [INFO]:2024-05-08 10:57:11 :
+ [UserRoutes] : Login-user : End 
+ [INFO]:2024-05-08 10:59:38 :
+ Activating AuthenticateToken Middleware 
+ [ERROR]:2024-05-08 10:59:38 :
+ Error : JsonWebTokenError: invalid token 
+ [INFO]:2024-05-08 11:07:46 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-08 11:07:46 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-08 11:08:30 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-08 11:08:30 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-08 11:10:04 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-08 11:10:04 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-08 11:10:25 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-08 11:10:25 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-08 11:10:34 :
+ [UserRoutes] : Login-user : Incoming User Login Details : {"email":"stu@gmail.com","password":"stu123"} 
+ [INFO]:2024-05-08 11:10:34 :
+ [UserRoutes] : Login-user : User found: {"_id":"6638a983ca3c510f0c4470d8","name":"stu","email":"stu@gmail.com","password":"$2b$10$6RdNOfnV.0ZvuyzJQa7v9eaERLXHyCh7Q/CMpwRwWcZ.bqGeXaV5i","role":"client","status":"active","__v":0} 
+ [INFO]:2024-05-08 11:10:34 :
+ [UserRoutes] : Login-user : Password verified for user with email stu@gmail.com 
+ [INFO]:2024-05-08 11:10:34 :
+ [UserRoutes] : Login-user : Token generated successfully 
+ [INFO]:2024-05-08 11:10:34 :
+ [UserRoutes] : Login-user : End 
+ [INFO]:2024-05-08 11:10:49 :
+ Activating AuthenticateToken Middleware 
+ [ERROR]:2024-05-08 11:10:49 :
+ invalid signature 
+ [INFO]:2024-05-08 11:11:45 :
+ Activating AuthenticateToken Middleware 
+ [ERROR]:2024-05-08 11:11:45 :
+ invalid signature 
+ [INFO]:2024-05-08 11:15:17 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-08 11:15:17 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-08 11:15:38 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-08 11:15:38 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-08 11:15:44 :
+ Activating AuthenticateToken Middleware 
+ [ERROR]:2024-05-08 11:15:44 :
+ invalid signature 
+ [INFO]:2024-05-08 11:16:54 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-08 11:16:54 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-08 11:16:59 :
+ Activating AuthenticateToken Middleware 
+ [ERROR]:2024-05-08 11:16:59 :
+ jwt expired 
+ [INFO]:2024-05-08 11:18:07 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-08 11:18:07 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-08 11:18:23 :
+ [UserRoutes] : Login-user : Incoming User Login Details : {"email":"stu@gmail.com","password":"stu123"} 
+ [INFO]:2024-05-08 11:18:23 :
+ [UserRoutes] : Login-user : User found: {"_id":"6638a983ca3c510f0c4470d8","name":"stu","email":"stu@gmail.com","password":"$2b$10$6RdNOfnV.0ZvuyzJQa7v9eaERLXHyCh7Q/CMpwRwWcZ.bqGeXaV5i","role":"client","status":"active","__v":0} 
+ [INFO]:2024-05-08 11:18:23 :
+ [UserRoutes] : Login-user : Password verified for user with email stu@gmail.com 
+ [INFO]:2024-05-08 11:18:23 :
+ [UserRoutes] : Login-user : Token generated successfully 
+ [INFO]:2024-05-08 11:18:23 :
+ [UserRoutes] : Login-user : End 
+ [INFO]:2024-05-08 11:18:37 :
+ Activating AuthenticateToken Middleware 
+ [INFO]:2024-05-08 11:18:37 :
+ Token Verified for User: client 
+ [ERROR]:2024-05-08 11:18:37 :
+ Unauthorized with Role : client 
+ [INFO]:2024-05-08 11:18:58 :
+ [UserRoutes] : Login-user : Incoming User Login Details : {"email":"abc@gmail.com","password":"abc123"} 
+ [INFO]:2024-05-08 11:18:58 :
+ [UserRoutes] : Login-user : User found: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [INFO]:2024-05-08 11:18:58 :
+ [UserRoutes] : Login-user : Password verified for user with email abc@gmail.com 
+ [INFO]:2024-05-08 11:18:58 :
+ [UserRoutes] : Login-user : Token generated successfully 
+ [INFO]:2024-05-08 11:18:58 :
+ [UserRoutes] : Login-user : End 
+ [INFO]:2024-05-08 11:19:10 :
+ Activating AuthenticateToken Middleware 
+ [INFO]:2024-05-08 11:19:10 :
+ Token Verified for User: admin 
+ [INFO]:2024-05-08 11:19:10 :
+ Authorized to Access this Route ! :) 
+ [INFO]:2024-05-08 11:19:34 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-08 11:19:34 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-08 11:31:21 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-08 11:31:22 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-08 12:25:22 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-08 12:25:22 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-08 12:31:42 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-08 12:31:42 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-08 16:03:49 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-08 16:03:49 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-08 16:04:09 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-08 16:04:09 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-08 16:04:34 :
+ [UserRoutes] : All-Users :  : 
+ {
+  _id: new ObjectId('6638a914c3e52e1e4095b288'),
+  name: 'abc',
+  email: 'abc@gmail.com',
+  password: '$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa',
+  role: 'admin',
+  status: 'active',
+  __v: 0
+},{
+  _id: new ObjectId('6638a983ca3c510f0c4470d8'),
+  name: 'stu',
+  email: 'stu@gmail.com',
+  password: '$2b$10$6RdNOfnV.0ZvuyzJQa7v9eaERLXHyCh7Q/CMpwRwWcZ.bqGeXaV5i',
+  role: 'client',
+  status: 'active',
+  __v: 0
+} 
+ [INFO]:2024-05-08 16:04:34 :
+ [UserRoutes] : All-Users :  : End 

@@ -1,0 +1,1542 @@
+ [INFO]:2024-05-06 11:49:03 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 11:49:03 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 11:49:27 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 11:49:27 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 11:50:00 :
+ [UserRoutes] : All-Users :  : 
+ {
+  _id: new ObjectId('6634d8f75b1e23c68d8a03be'),
+  name: 'pqr',
+  email: 'pqr@gmail.com',
+  password: 'pqr123',
+  role: 'client',
+  __v: 0
+} 
+ [INFO]:2024-05-06 11:50:00 :
+ [UserRoutes] : All-Users :  : End 
+ [INFO]:2024-05-06 11:50:43 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [INFO]:2024-05-06 11:50:43 :
+ [UserRoutes] : create-newUser :  : New User Created SuccessFully ...
+New-User : {
+  name: 'xyz',
+  email: 'xyz@gmail.com',
+  password: 'xyz123',
+  role: 'client',
+  _id: new ObjectId('663876bbd9679824efe6f86e'),
+  __v: 0
+}  
+ [INFO]:2024-05-06 11:50:43 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 11:50:49 :
+ [UserRoutes] : All-Users :  : 
+ {
+  _id: new ObjectId('6634d8f75b1e23c68d8a03be'),
+  name: 'pqr',
+  email: 'pqr@gmail.com',
+  password: 'pqr123',
+  role: 'client',
+  __v: 0
+},{
+  _id: new ObjectId('663876bbd9679824efe6f86e'),
+  name: 'xyz',
+  email: 'xyz@gmail.com',
+  password: 'xyz123',
+  role: 'client',
+  __v: 0
+} 
+ [INFO]:2024-05-06 11:50:49 :
+ [UserRoutes] : All-Users :  : End 
+ [INFO]:2024-05-06 11:53:28 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 11:53:28 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 12:22:32 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 12:22:32 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 12:47:54 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 12:47:54 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 12:49:13 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :[object Object]  
+ [INFO]:2024-05-06 12:49:13 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 12:49:51 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 12:49:51 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 12:49:59 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"id":"\"663876bbd9679824efe6f86e\"","status":"\"active\""}  
+ [INFO]:2024-05-06 12:49:59 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 12:53:35 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 12:53:35 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 12:53:41 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"id":"\"663876bbd9679824efe6f86e\"","status":"\"active\""}  
+ [INFO]:2024-05-06 12:54:06 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 12:54:06 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 12:54:23 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"id":"\"663876bbd9679824efe6f86e\"","status":"\"active\""}  
+ [ERROR]:2024-05-06 12:54:23 :
+ [UserRoutes] : Update-User :  : Error : TypeError: User.patch is not a function 
+ [INFO]:2024-05-06 12:54:23 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 12:55:06 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 12:55:06 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 12:55:13 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"id":"\"663876bbd9679824efe6f86e\"","status":"\"active\""}  
+ [INFO]:2024-05-06 12:55:13 :
+ updated User = {"_id":"6634d610fa02b406e0435ed2","name":"abc","email":"abc@gmail.com","password":"abc123","role":"admin","__v":0} 
+ [INFO]:2024-05-06 12:55:14 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 12:56:31 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 12:56:31 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 12:56:41 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"id":"\"663876bbd9679824efe6f86e\"","status":"\"active\""}  
+ [INFO]:2024-05-06 12:56:41 :
+ updated User = {"_id":"6634d610fa02b406e0435ed2","name":"abc","email":"abc@gmail.com","password":"abc123","role":"admin","__v":0,"status":"\"active\""} 
+ [INFO]:2024-05-06 12:56:41 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 12:58:29 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 12:58:29 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 12:58:37 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"id":"\"663876bbd9679824efe6f86e\"","status":"\"active\""}  
+ [INFO]:2024-05-06 12:58:37 :
+ updated User = {"_id":"6634d610fa02b406e0435ed2","name":"abc","email":"abc@gmail.com","password":"abc123","role":"admin","__v":0,"status":"\"active\""} 
+ [INFO]:2024-05-06 12:58:37 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 12:59:30 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"id":"\"6634d8f75b1e23c68d8a03be\"","status":"inactive"}  
+ [INFO]:2024-05-06 12:59:30 :
+ updated User = {"_id":"6634d610fa02b406e0435ed2","name":"abc","email":"abc@gmail.com","password":"abc123","role":"admin","__v":0,"status":"\"active\""} 
+ [INFO]:2024-05-06 12:59:30 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 13:00:44 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"_id":"\"6634d8f75b1e23c68d8a03be\"","status":"inactive"}  
+ [INFO]:2024-05-06 13:00:44 :
+ updated User = {"_id":"6634d610fa02b406e0435ed2","name":"abc","email":"abc@gmail.com","password":"abc123","role":"admin","__v":0,"status":"inactive"} 
+ [INFO]:2024-05-06 13:00:44 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 13:06:42 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 13:06:42 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 13:06:51 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"_id":"\"6634d8f75b1e23c68d8a03be\"","status":"inactive"}  
+ [ERROR]:2024-05-06 13:06:51 :
+ [UserRoutes] : Update-User :  : Error : ReferenceError: userId is not defined 
+ [INFO]:2024-05-06 13:06:51 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 13:07:06 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 13:07:06 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 13:07:14 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"_id":"\"6634d8f75b1e23c68d8a03be\"","status":"inactive"}  
+ [INFO]:2024-05-06 13:07:14 :
+ updated User = {"_id":"6634d610fa02b406e0435ed2","name":"abc","email":"abc@gmail.com","password":"abc123","role":"admin","__v":0,"status":"inactive"} 
+ [INFO]:2024-05-06 13:07:14 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 13:08:28 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 13:08:28 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 13:08:51 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 13:08:51 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 13:09:03 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"id":"\"6634d8f75b1e23c68d8a03be\"","status":"active"}  
+ [INFO]:2024-05-06 13:09:03 :
+ updated User = {"_id":"6634d610fa02b406e0435ed2","name":"abc","email":"abc@gmail.com","password":"abc123","role":"admin","__v":0,"status":"inactive"} 
+ [INFO]:2024-05-06 13:09:03 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 13:09:19 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"id":"6634d8f75b1e23c68d8a03be","status":"active"}  
+ [INFO]:2024-05-06 13:09:19 :
+ updated User = {"_id":"6634d610fa02b406e0435ed2","name":"abc","email":"abc@gmail.com","password":"abc123","role":"admin","__v":0,"status":"active"} 
+ [INFO]:2024-05-06 13:09:19 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 13:10:03 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 13:10:03 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 13:10:26 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"id":"6634d8f75b1e23c68d8a03be","status":"active"}  
+ [ERROR]:2024-05-06 13:10:26 :
+ [UserRoutes] : Update-User :  : Error : MongoServerError: Plan executor error during findAndModify :: caused by :: Performing an update on the path '_id' would modify the immutable field '_id' 
+ [INFO]:2024-05-06 13:10:26 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 13:12:43 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 13:12:43 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 13:13:19 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"id":"6634d8f75b1e23c68d8a03be","status":"inActive"}  
+ [INFO]:2024-05-06 13:13:20 :
+ updated User = {"_id":"6634d8f75b1e23c68d8a03be","name":"pqr","email":"pqr@gmail.com","password":"pqr123","role":"client","__v":0} 
+ [INFO]:2024-05-06 13:13:20 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 13:15:24 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 13:15:24 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 13:15:36 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 13:15:36 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 13:16:44 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"id":"663876bbd9679824efe6f86e","status":"inActive"}  
+ [INFO]:2024-05-06 13:16:44 :
+ updated User = {"_id":"663876bbd9679824efe6f86e","name":"xyz","email":"xyz@gmail.com","password":"xyz123","role":"client","__v":0} 
+ [INFO]:2024-05-06 13:16:44 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 13:17:41 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 13:17:41 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 13:18:04 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [INFO]:2024-05-06 13:18:04 :
+ [UserRoutes] : create-newUser :  : New User Created SuccessFully ...
+New-User : {
+  name: 'xyz',
+  email: 'xyz@gmail.com',
+  password: 'xyz123',
+  role: 'client',
+  _id: new ObjectId('66388b34db32f0cda5824fc1'),
+  __v: 0
+}  
+ [INFO]:2024-05-06 13:18:04 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 13:18:39 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"id":"66388b34db32f0cda5824fc1","status":"inActive"}  
+ [INFO]:2024-05-06 13:18:39 :
+ updated User = {"_id":"66388b34db32f0cda5824fc1","name":"xyz","email":"xyz@gmail.com","password":"xyz123","role":"client","__v":0,"status":"inActive"} 
+ [INFO]:2024-05-06 13:18:39 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 13:23:38 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"id":"66388b34db32f0cda5824fcpk1","status":"inActive"}  
+ [ERROR]:2024-05-06 13:23:38 :
+ [UserRoutes] : Update-User :  : Error : CastError: Cast to ObjectId failed for value "66388b34db32f0cda5824fcpk1" (type string) at path "_id" for model "User" 
+ [INFO]:2024-05-06 13:23:38 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 13:31:18 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 13:31:18 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 13:31:23 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"id":"66388b34db32f0cda5824fcpk1","status":"inActive"}  
+ [ERROR]:2024-05-06 13:31:23 :
+ [UserRoutes] : Update-User :  : Error : CastError: Cast to ObjectId failed for value "66388b34db32f0cda5824fcpk1" (type string) at path "_id" for model "User" 
+ [INFO]:2024-05-06 13:31:23 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 13:33:56 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 13:33:56 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 13:34:11 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"id":"66388b34db32f0cda5824fc1","status":"inActive"}  
+ [ERROR]:2024-05-06 13:34:11 :
+ [UserRoutes] : Update-User :  : Error : ReferenceError: userid is not defined 
+ [INFO]:2024-05-06 13:34:11 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 13:34:35 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 13:34:35 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 13:34:40 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"id":"66388b34db32f0cda5824fc1","status":"inActive"}  
+ [ERROR]:2024-05-06 13:34:40 :
+ [UserRoutes] : Update-User :  : Error : ReferenceError: id is not defined 
+ [INFO]:2024-05-06 13:34:40 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 13:34:42 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"id":"66388b34db32f0cda5824fc1","status":"inActive"}  
+ [ERROR]:2024-05-06 13:34:42 :
+ [UserRoutes] : Update-User :  : Error : ReferenceError: id is not defined 
+ [INFO]:2024-05-06 13:34:42 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 13:36:34 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 13:36:34 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 13:37:01 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 13:37:01 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 13:37:11 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"id":"66388b34db32f0cda5824fc1","status":"inActive"}  
+ [INFO]:2024-05-06 13:37:11 :
+ updated User = null 
+ [INFO]:2024-05-06 13:37:11 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 13:37:44 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{"id":"66388b34db32f0cda5824fc1","status":"inActive"}  
+ [INFO]:2024-05-06 13:37:44 :
+ updated User = null 
+ [INFO]:2024-05-06 13:37:44 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 13:50:03 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 13:50:03 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 13:50:22 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 13:50:22 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 13:51:27 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [INFO]:2024-05-06 13:51:27 :
+ [UserRoutes] : create-newUser :  : New User Created SuccessFully ...
+New-User : {
+  name: 'stu',
+  email: 'stu@gmail.com',
+  password: 'stu123',
+  role: 'admin',
+  _id: new ObjectId('6638930772562fd754c14380'),
+  __v: 0
+}  
+ [INFO]:2024-05-06 13:51:27 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 13:52:14 :
+ [UserRoutes] : Update-User :  :
+ Incoming User Details :{}  
+ [ERROR]:2024-05-06 13:52:14 :
+ [UserRoutes] : Update-User :  : Error : CastError: Cast to ObjectId failed for value "{ id: 'id=6638930772562fd754c14380' }" (type Object) at path "_id" for model "User" 
+ [INFO]:2024-05-06 13:52:15 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 13:55:01 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 13:55:01 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 13:58:12 :
+ [UserRoutes] : Update-User :  :
+ Incoming User-Id : [object Object]
+ Field to Update :
+        {"status":"active"}
+    )}  
+ [ERROR]:2024-05-06 13:58:12 :
+ [UserRoutes] : Update-User :  : Error : CastError: Cast to ObjectId failed for value "{ id: 'id=6638930772562fd754c14380' }" (type Object) at path "_id" for model "User" 
+ [INFO]:2024-05-06 13:58:12 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 13:58:58 :
+ [UserRoutes] : Update-User :  :
+ Incoming User-Id : [object Object]
+ Field to Update :
+        {"status":"active"}
+    )}  
+ [ERROR]:2024-05-06 13:58:58 :
+ [UserRoutes] : Update-User :  : Error : CastError: Cast to ObjectId failed for value "{ id: '6638930772562fd754c14380' }" (type Object) at path "_id" for model "User" 
+ [INFO]:2024-05-06 13:58:58 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 14:00:00 :
+ [UserRoutes] : Update-User :  :
+ Incoming User-Id : [object Object]
+ Field to Update :
+        {"status":"active"}
+    )}  
+ [ERROR]:2024-05-06 14:00:00 :
+ [UserRoutes] : Update-User :  : Error : CastError: Cast to ObjectId failed for value "{ id: '6638930772562fd754c14380' }" (type Object) at path "_id" for model "User" 
+ [INFO]:2024-05-06 14:00:00 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 14:08:30 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 14:08:30 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 14:08:39 :
+ [UserRoutes] : Update-User :  :
+ Incoming User-Id : {"id":"6638930772562fd754c14380"}
+ Field to Update :
+        {"status":"active"}
+    )}  
+ [ERROR]:2024-05-06 14:08:39 :
+ [UserRoutes] : Update-User :  : Error : CastError: Cast to ObjectId failed for value "{ id: '6638930772562fd754c14380' }" (type Object) at path "_id" for model "User" 
+ [INFO]:2024-05-06 14:08:39 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 14:09:22 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 14:09:22 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 14:09:28 :
+ [UserRoutes] : Update-User :  :
+ Incoming User-Id : {"id":"6638930772562fd754c14380"}
+ Field to Update :
+        {"status":"active"}
+    )}  
+ [INFO]:2024-05-06 14:09:28 :
+ updated User = {"_id":"6638930772562fd754c14380","name":"stu","email":"stu@gmail.com","password":"stu123","role":"admin","__v":0,"status":"active"} 
+ [INFO]:2024-05-06 14:09:28 :
+ [UserRoutes] : Update-User :  : End 
+ [INFO]:2024-05-06 14:10:31 :
+ [UserRoutes] : Find-User :  :
+ Incoming User Detail :[object Object]  
+ [INFO]:2024-05-06 14:10:31 :
+ [UserRoutes] : Find-User :  : 
+ {
+  _id: new ObjectId('6634d610fa02b406e0435ed2'),
+  name: 'abc',
+  email: 'abc@gmail.com',
+  password: 'abc123',
+  role: 'admin',
+  __v: 0,
+  status: 'active'
+} 
+ [INFO]:2024-05-06 14:10:31 :
+ [UserRoutes] : Find-User :  : End 
+ [INFO]:2024-05-06 15:19:28 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 15:19:28 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 15:19:31 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 15:19:31 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 15:20:09 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [ERROR]:2024-05-06 15:20:09 :
+ [UserRoutes] : create-newUser :  : Error : ReferenceError: bcrypt is not defined 
+ [INFO]:2024-05-06 15:20:09 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 15:22:58 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 15:22:58 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 15:23:05 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [ERROR]:2024-05-06 15:23:06 :
+ [UserRoutes] : create-newUser :  : Error : ReferenceError: bcrypt is not defined 
+ [INFO]:2024-05-06 15:23:06 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 15:23:39 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 15:23:39 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 15:23:47 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [INFO]:2024-05-06 15:23:47 :
+ [UserRoutes] : create-newUser :  : New User Created SuccessFully ...
+New-User : {
+  name: 'lmn',
+  email: 'lmn@gmail.com',
+  password: '$2b$10$R1kmIz9h3VbCd3cWTsgw0OI5Jh.sX9tVx708SczQXi6M4irVq1o7u',
+  role: 'admin',
+  _id: new ObjectId('6638a8abc3e52e1e4095b286'),
+  __v: 0
+}  
+ [INFO]:2024-05-06 15:23:47 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 15:25:32 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [INFO]:2024-05-06 15:25:32 :
+ [UserRoutes] : create-newUser :  : New User Created SuccessFully ...
+New-User : {
+  name: 'abc',
+  email: 'abc@gmail.com',
+  password: '$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa',
+  role: 'admin',
+  status: 'active',
+  _id: new ObjectId('6638a914c3e52e1e4095b288'),
+  __v: 0
+}  
+ [INFO]:2024-05-06 15:25:32 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 15:26:00 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [ERROR]:2024-05-06 15:26:00 :
+ [UserRoutes] : create-newUser :  : Error : ValidationError: status: `inActive` is not a valid enum value for path `status`. 
+ [INFO]:2024-05-06 15:26:00 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 15:26:22 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 15:26:22 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 15:26:25 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [INFO]:2024-05-06 15:26:25 :
+ [UserRoutes] : create-newUser :  : New User Created SuccessFully ...
+New-User : {
+  name: 'xyz',
+  email: 'xyz@gmail.com',
+  password: '$2b$10$pi.m4KghJUxc/nec/qC4Yu0P/WDCcgc2aRZEQVzFd16a45JzNX.8a',
+  role: 'admin',
+  status: 'inActive',
+  _id: new ObjectId('6638a949ca3c510f0c4470d4'),
+  __v: 0
+}  
+ [INFO]:2024-05-06 15:26:25 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 15:27:03 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [INFO]:2024-05-06 15:27:03 :
+ [UserRoutes] : create-newUser :  : New User Created SuccessFully ...
+New-User : {
+  name: 'pqr',
+  email: 'pqr@gmail.com',
+  password: '$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO',
+  role: 'client',
+  status: 'inActive',
+  _id: new ObjectId('6638a96fca3c510f0c4470d6'),
+  __v: 0
+}  
+ [INFO]:2024-05-06 15:27:03 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 15:27:23 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :[object Object]  
+ [INFO]:2024-05-06 15:27:23 :
+ [UserRoutes] : create-newUser :  : New User Created SuccessFully ...
+New-User : {
+  name: 'stu',
+  email: 'stu@gmail.com',
+  password: '$2b$10$6RdNOfnV.0ZvuyzJQa7v9eaERLXHyCh7Q/CMpwRwWcZ.bqGeXaV5i',
+  role: 'client',
+  status: 'active',
+  _id: new ObjectId('6638a983ca3c510f0c4470d8'),
+  __v: 0
+}  
+ [INFO]:2024-05-06 15:27:23 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 15:41:02 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 15:41:02 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 15:45:16 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 15:45:16 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 15:46:35 :
+ [UserRoutes] : Find-User :  :
+ Incoming User Detail :[object Object]  
+ [ERROR]:2024-05-06 15:46:35 :
+ [UserRoutes] : Find-User :  : Error : CastError: Cast to ObjectId failed for value "login" (type string) at path "_id" for model "User" 
+ [INFO]:2024-05-06 15:46:35 :
+ [UserRoutes] : Find-User :  : End 
+ [INFO]:2024-05-06 15:50:32 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 15:50:32 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 15:50:45 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :{"email":"abc@gmail.com","password":"abc"}  
+ [INFO]:2024-05-06 15:50:45 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 15:54:03 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 15:54:03 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 15:54:12 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :{"email":"abc@gmail.com","password":"abc"}  
+ [INFO]:2024-05-06 15:54:12 :
+ User found : [Details]: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [INFO]:2024-05-06 15:54:12 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 16:05:16 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :{"email":"abcd@gmail.com","password":"abc"}  
+ [INFO]:2024-05-06 16:05:16 :
+  User not found with abcd@gmail.com 
+ [INFO]:2024-05-06 16:05:16 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 16:05:25 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :{"email":"abc@gmail.com","password":"abc"}  
+ [INFO]:2024-05-06 16:05:25 :
+ User found : [Details]: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [INFO]:2024-05-06 16:05:25 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 16:05:48 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 16:05:48 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 16:05:54 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :{"email":"abc@gmail.com","password":"abc"}  
+ [INFO]:2024-05-06 16:05:54 :
+ User found : [Details]: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [INFO]:2024-05-06 16:05:54 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 16:06:31 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 16:06:31 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 16:06:39 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :{"email":"abc@gmail.com","password":"abc"}  
+ [INFO]:2024-05-06 16:06:39 :
+ User found : [Details]: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [INFO]:2024-05-06 16:06:55 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 16:06:55 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 16:07:11 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :{"email":"abc@gmail.com","password":"abc"}  
+ [INFO]:2024-05-06 16:07:12 :
+ User found : [Details]: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [ERROR]:2024-05-06 16:07:12 :
+ [UserRoutes] : create-newUser :  : Error : ReferenceError: bcrypt is not defined 
+ [INFO]:2024-05-06 16:07:12 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 16:07:52 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 16:07:52 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 16:07:57 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :{"email":"abc@gmail.com","password":"abc"}  
+ [INFO]:2024-05-06 16:07:57 :
+ User found : [Details]: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [INFO]:2024-05-06 16:07:57 :
+  Invalid Password 
+ [INFO]:2024-05-06 16:07:57 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 16:08:18 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :{"email":"abc@gmail.com","password":"abc@123"}  
+ [INFO]:2024-05-06 16:08:18 :
+ User found : [Details]: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [INFO]:2024-05-06 16:08:18 :
+  Invalid Password 
+ [INFO]:2024-05-06 16:08:18 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 16:08:23 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :{"email":"abc@gmail.com","password":"abc123"}  
+ [INFO]:2024-05-06 16:08:23 :
+ User found : [Details]: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [ERROR]:2024-05-06 16:08:23 :
+ [UserRoutes] : create-newUser :  : Error : ReferenceError: jwt is not defined 
+ [INFO]:2024-05-06 16:08:23 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 16:09:47 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 16:09:47 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 16:09:51 :
+ [UserRoutes] : create-newUser :  :
+ Incoming User Details :{"email":"abc@gmail.com","password":"abc123"}  
+ [INFO]:2024-05-06 16:09:51 :
+ User found : [Details]: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [INFO]:2024-05-06 16:09:51 :
+ [UserRoutes] : create-newUser :  : End 
+ [INFO]:2024-05-06 16:31:32 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 16:31:32 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 16:32:04 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 16:32:04 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 16:37:24 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 16:37:24 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 16:38:30 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 16:38:30 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 16:40:14 :
+ [UserRoutes] : All-Users :  : 
+ {
+  _id: new ObjectId('6638a96fca3c510f0c4470d6'),
+  name: 'pqr',
+  email: 'pqr@gmail.com',
+  password: '$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO',
+  role: 'client',
+  status: 'inActive',
+  __v: 0
+},{
+  _id: new ObjectId('6638a983ca3c510f0c4470d8'),
+  name: 'stu',
+  email: 'stu@gmail.com',
+  password: '$2b$10$6RdNOfnV.0ZvuyzJQa7v9eaERLXHyCh7Q/CMpwRwWcZ.bqGeXaV5i',
+  role: 'client',
+  status: 'active',
+  __v: 0
+} 
+ [INFO]:2024-05-06 16:40:14 :
+ [UserRoutes] : All-Users :  : End 
+ [INFO]:2024-05-06 16:40:23 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 16:40:23 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 16:41:26 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 16:41:26 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 16:49:38 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 16:49:38 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 16:49:40 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 16:49:41 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 16:50:21 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 16:50:21 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 16:50:54 :
+ [UserRoutes] : Login-newUser :  :
+ Incoming User Login Details :{"email":"abcd@gmail.com","password":"abc123"}  
+ [INFO]:2024-05-06 16:50:54 :
+  User not found with abcd@gmail.com 
+ [INFO]:2024-05-06 16:50:54 :
+ [UserRoutes] : Login-newUser :  : End 
+ [INFO]:2024-05-06 16:51:13 :
+ [UserRoutes] : Login-newUser :  :
+ Incoming User Login Details :{"email":"abc@gmail.com","password":"abcd123"}  
+ [INFO]:2024-05-06 16:51:13 :
+ User found : [Details]: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [INFO]:2024-05-06 16:51:14 :
+  Invalid Password 
+ [INFO]:2024-05-06 16:51:14 :
+ [UserRoutes] : Login-newUser :  : End 
+ [INFO]:2024-05-06 17:10:48 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 17:10:48 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 17:10:58 :
+ [UserRoutes] : Login-newUser :  :
+ Incoming User Login Details :{"email":"abc@gmail.com","password":"abc123"}  
+ [INFO]:2024-05-06 17:10:58 :
+ User found : [Details]: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [INFO]:2024-05-06 17:10:58 :
+ [UserRoutes] : Login-newUser :  : End 
+ [INFO]:2024-05-06 17:12:12 :
+ [UserRoutes] : Login-newUser :  :
+ Incoming User Login Details :{"email":"pqr@gmail.com","password":"pqr123"}  
+ [INFO]:2024-05-06 17:12:12 :
+ User found : [Details]: {"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0} 
+ [INFO]:2024-05-06 17:12:13 :
+ [UserRoutes] : Login-newUser :  : End 
+ [INFO]:2024-05-06 17:12:43 :
+ [UserRoutes] : Login-newUser :  :
+ Incoming User Login Details :{"email":"pqr@gmail.com","password":"pqr123"}  
+ [INFO]:2024-05-06 17:12:43 :
+ User found : [Details]: {"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0} 
+ [INFO]:2024-05-06 17:12:44 :
+ [UserRoutes] : Login-newUser :  : End 
+ [INFO]:2024-05-06 17:13:21 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 17:13:21 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 17:20:09 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 17:20:10 :
+  Database [MongoDb] connected successfully .... 
+ [ERROR]:2024-05-06 17:20:26 :
+ Invalid Token ............ 
+ [INFO]:2024-05-06 17:20:41 :
+ [UserRoutes] : Login-newUser :  :
+ Incoming User Login Details :{"email":"pqr@gmail.com","password":"pqr123"}  
+ [INFO]:2024-05-06 17:20:41 :
+ Email Verified!
+User found : [Details]: {"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0} 
+ [INFO]:2024-05-06 17:20:41 :
+ Password Verified! 
+ [INFO]:2024-05-06 17:20:41 :
+ Token Generated Successfully! 
+ [INFO]:2024-05-06 17:20:41 :
+ [UserRoutes] : Login-newUser :  : End 
+ [INFO]:2024-05-06 17:21:02 :
+ Token Verified for the User : {"user":{"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0},"iat":1714996241,"exp":1714996541} 
+ [INFO]:2024-05-06 17:22:16 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 17:22:16 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 17:22:26 :
+ Token Verified for the User : {"user":{"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0},"iat":1714996241,"exp":1714996541} 
+ [INFO]:2024-05-06 17:23:04 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 17:23:04 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 17:23:11 :
+ Token Verified for the User : {"user":{"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0},"iat":1714996241,"exp":1714996541} 
+ [INFO]:2024-05-06 17:25:03 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 17:25:03 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 17:25:07 :
+ Token Verified for the User : {"user":{"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0},"iat":1714996241,"exp":1714996541} 
+ [INFO]:2024-05-06 17:26:52 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 17:26:52 :
+  Database [MongoDb] connected successfully .... 
+ [ERROR]:2024-05-06 17:27:02 :
+ Invalid Token ............ 
+ [INFO]:2024-05-06 17:27:10 :
+ [UserRoutes] : Login-newUser :  :
+ Incoming User Login Details :{"email":"pqr@gmail.com","password":"pqr123"}  
+ [INFO]:2024-05-06 17:27:10 :
+ Email Verified!
+User found : [Details]: {"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0} 
+ [INFO]:2024-05-06 17:27:10 :
+ Password Verified! 
+ [INFO]:2024-05-06 17:27:10 :
+ Token Generated Successfully! 
+ [INFO]:2024-05-06 17:27:10 :
+ [UserRoutes] : Login-newUser :  : End 
+ [INFO]:2024-05-06 17:27:32 :
+ Token Verified for the User : {"user":{"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0},"iat":1714996630,"exp":1714996930} 
+ [INFO]:2024-05-06 17:28:30 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 17:28:30 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 17:30:21 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 17:30:21 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 17:30:30 :
+ Token Verified for the User : {"user":{"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0},"iat":1714996630,"exp":1714996930} 
+ [ERROR]:2024-05-06 17:30:30 :
+ Unauthorized [due to Role]. 
+ [INFO]:2024-05-06 17:36:34 :
+ [UserRoutes] : Login-newUser :  :
+ Incoming User Login Details :{"email":"pqr@gmail.com","password":"pqr123"}  
+ [INFO]:2024-05-06 17:36:34 :
+ Email Verified!
+User found : [Details]: {"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0} 
+ [INFO]:2024-05-06 17:36:35 :
+ Password Verified! 
+ [INFO]:2024-05-06 17:36:35 :
+ Token Generated Successfully! 
+ [INFO]:2024-05-06 17:36:35 :
+ [UserRoutes] : Login-newUser :  : End 
+ [INFO]:2024-05-06 17:36:53 :
+ Token Verified for the User : {"user":{"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0},"iat":1714997195,"exp":1714997495} 
+ [ERROR]:2024-05-06 17:36:53 :
+ Unauthorized [due to Role]. 
+ [INFO]:2024-05-06 17:39:18 :
+ Token Verified for the User : {"user":{"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0},"iat":1714997195,"exp":1714997495} 
+ [ERROR]:2024-05-06 17:39:18 :
+ Unauthorized [due to Role]. 
+ [INFO]:2024-05-06 17:40:23 :
+ Token Verified for the User : {"user":{"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0},"iat":1714997195,"exp":1714997495} 
+ [ERROR]:2024-05-06 17:40:23 :
+ Unauthorized [due to Role]. 
+ [INFO]:2024-05-06 17:40:29 :
+ Token Verified for the User : {"user":{"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0},"iat":1714997195,"exp":1714997495} 
+ [ERROR]:2024-05-06 17:40:29 :
+ Unauthorized [due to Role]. 
+ [INFO]:2024-05-06 17:45:32 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 17:45:32 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 17:46:50 :
+ incoming Request after token :  
+ [ERROR]:2024-05-06 17:46:51 :
+ Invalid Token ............ 
+ [INFO]:2024-05-06 17:46:58 :
+ [UserRoutes] : Login-newUser :  :
+ Incoming User Login Details :{"email":"pqr@gmail.com","password":"pqr123"}  
+ [INFO]:2024-05-06 17:46:58 :
+ Email Verified!
+User found : [Details]: {"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0} 
+ [INFO]:2024-05-06 17:46:59 :
+ Password Verified! 
+ [INFO]:2024-05-06 17:46:59 :
+ Token Generated Successfully! 
+ [INFO]:2024-05-06 17:46:59 :
+ [UserRoutes] : Login-newUser :  : End 
+ [INFO]:2024-05-06 17:47:14 :
+ incoming Request after token :  
+ [INFO]:2024-05-06 17:47:15 :
+ Token Verified for the User : {"user":{"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0},"iat":1714997819,"exp":1714998119} 
+ [ERROR]:2024-05-06 17:47:15 :
+ Unauthorized [due to Role]. 
+ [INFO]:2024-05-06 17:48:10 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 17:48:10 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 17:48:42 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 17:48:42 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 17:51:45 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 17:51:45 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 17:52:06 :
+ [UserRoutes] : Login-newUser :  :
+ Incoming User Login Details :{"email":"pqr@gmail.com","password":"pqr123"}  
+ [INFO]:2024-05-06 17:52:06 :
+ Email Verified!
+User found : [Details]: {"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0} 
+ [INFO]:2024-05-06 17:52:06 :
+ Password Verified! 
+ [INFO]:2024-05-06 17:52:06 :
+ Token Generated Successfully! 
+ [INFO]:2024-05-06 17:52:06 :
+ [UserRoutes] : Login-newUser :  : End 
+ [INFO]:2024-05-06 17:54:35 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 17:54:35 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 17:55:15 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 17:55:15 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 17:55:43 :
+ [UserRoutes] : Login-newUser :  :
+ Incoming User Login Details :{"email":"abc@gmail.com","password":"abc123"}  
+ [INFO]:2024-05-06 17:55:43 :
+ Email Verified!
+User found : [Details]: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [INFO]:2024-05-06 17:55:43 :
+ Password Verified! 
+ [INFO]:2024-05-06 17:55:43 :
+ Token Generated Successfully! 
+ [INFO]:2024-05-06 17:55:43 :
+ [UserRoutes] : Login-newUser :  : End 
+ [INFO]:2024-05-06 17:59:35 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 17:59:35 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:00:26 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:00:26 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:00:39 :
+ 
+
+[UserRoutes] : Login-user :  :
+ Incoming User Login Details :{"email":"abc@gmail.com","password":"abc123"}  
+ [INFO]:2024-05-06 18:00:39 :
+ Email Verified!
+User found : [Details]: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [INFO]:2024-05-06 18:00:39 :
+ Password Verified! 
+ [INFO]:2024-05-06 18:00:39 :
+ Token Generated Successfully! 
+ [INFO]:2024-05-06 18:00:39 :
+ [UserRoutes] : Login-user :  : End 
+ [INFO]:2024-05-06 18:00:50 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:01:08 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:01:52 :
+ 
+
+[UserRoutes] : Login-user :  :
+ Incoming User Login Details :{"email":"abc@gmail.com","password":"abc123"}  
+ [INFO]:2024-05-06 18:01:52 :
+ Email Verified!
+User found : [Details]: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [INFO]:2024-05-06 18:01:52 :
+ Password Verified! 
+ [INFO]:2024-05-06 18:01:52 :
+ Token Generated Successfully! 
+ [INFO]:2024-05-06 18:01:52 :
+ [UserRoutes] : Login-user :  : End 
+ [INFO]:2024-05-06 18:02:25 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:07:29 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:07:29 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:07:41 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [ERROR]:2024-05-06 18:07:41 :
+ Invalid Token ............ 
+ [INFO]:2024-05-06 18:07:48 :
+ 
+
+[UserRoutes] : Login-user :  :
+ Incoming User Login Details :{"email":"abc@gmail.com","password":"abc123"}  
+ [INFO]:2024-05-06 18:07:48 :
+ Email Verified!
+User found : [Details]: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [INFO]:2024-05-06 18:07:48 :
+ Password Verified! 
+ [INFO]:2024-05-06 18:07:48 :
+ Token Generated Successfully! 
+ [INFO]:2024-05-06 18:07:48 :
+ [UserRoutes] : Login-user :  : End 
+ [INFO]:2024-05-06 18:08:06 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [ERROR]:2024-05-06 18:08:06 :
+ Invalid Token ............ 
+ [INFO]:2024-05-06 18:08:11 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [ERROR]:2024-05-06 18:08:11 :
+ Invalid Token ............ 
+ [INFO]:2024-05-06 18:09:35 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:09:35 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:09:44 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:09:44 :
+ token :  
+ [ERROR]:2024-05-06 18:09:44 :
+ Invalid Token ............ 
+ [INFO]:2024-05-06 18:10:18 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:10:18 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:10:33 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:10:33 :
+ token :  
+ [ERROR]:2024-05-06 18:10:33 :
+ Invalid Token ............ 
+ [INFO]:2024-05-06 18:11:34 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:11:34 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:11:45 :
+ 
+
+[UserRoutes] : Login-user :  :
+ Incoming User Login Details :{"email":"abc@gmail.com","password":"abc123"}  
+ [INFO]:2024-05-06 18:11:45 :
+ Email Verified!
+User found : [Details]: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [INFO]:2024-05-06 18:11:45 :
+ Password Verified! 
+ [INFO]:2024-05-06 18:11:45 :
+ Token Generated Successfully! 
+ [INFO]:2024-05-06 18:11:45 :
+ [UserRoutes] : Login-user :  : End 
+ [INFO]:2024-05-06 18:11:59 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:11:59 :
+ token :  
+ [ERROR]:2024-05-06 18:11:59 :
+ Invalid Token ............ 
+ [INFO]:2024-05-06 18:12:20 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:12:20 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:12:25 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:12:25 :
+ token :  
+ [ERROR]:2024-05-06 18:12:25 :
+ Invalid Token ............ 
+ [INFO]:2024-05-06 18:12:50 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:12:50 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:12:56 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:13:18 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:13:18 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:13:24 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:13:24 :
+ token :  
+ [ERROR]:2024-05-06 18:13:24 :
+ Invalid Token ............ 
+ [INFO]:2024-05-06 18:25:33 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:25:33 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:28:35 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:28:35 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:28:56 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:28:56 :
+ token :  
+ [ERROR]:2024-05-06 18:28:56 :
+ Invalid Token ............ 
+ [INFO]:2024-05-06 18:30:46 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:30:46 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:30:53 :
+ 
+
+[UserRoutes] : Login-user :  :
+ Incoming User Login Details :{"email":"abc@gmail.com","password":"abc123"}  
+ [INFO]:2024-05-06 18:30:53 :
+ Email Verified!
+User found : [Details]: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [INFO]:2024-05-06 18:30:53 :
+ Password Verified! 
+ [INFO]:2024-05-06 18:30:53 :
+ Token Generated Successfully! 
+ [INFO]:2024-05-06 18:30:53 :
+ [UserRoutes] : Login-user :  : End 
+ [INFO]:2024-05-06 18:31:06 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:31:06 :
+ token :  
+ [ERROR]:2024-05-06 18:31:06 :
+ Invalid Token[Time - out ] ............ 
+ [INFO]:2024-05-06 18:32:02 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:32:02 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:33:13 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:33:13 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:33:21 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:33:25 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:34:41 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:34:41 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:34:48 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [ERROR]:2024-05-06 18:34:48 :
+ Invalid Token or Time-Out ............ 
+ [INFO]:2024-05-06 18:34:55 :
+ 
+
+[UserRoutes] : Login-user :  :
+ Incoming User Login Details :{"email":"abc@gmail.com","password":"abc123"}  
+ [INFO]:2024-05-06 18:34:55 :
+ Email Verified!
+User found : [Details]: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [INFO]:2024-05-06 18:34:55 :
+ Password Verified! 
+ [INFO]:2024-05-06 18:34:55 :
+ Token Generated Successfully! 
+ [INFO]:2024-05-06 18:34:55 :
+ [UserRoutes] : Login-user :  : End 
+ [INFO]:2024-05-06 18:35:22 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:35:22 :
+ Token Verified for the User : {"user":{"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0},"iat":1715000695,"exp":1715000815} 
+ [ERROR]:2024-05-06 18:35:22 :
+ Unauthorized [due to Role]. 
+ [INFO]:2024-05-06 18:36:14 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:36:14 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:36:25 :
+ 
+
+[UserRoutes] : Login-user :  :
+ Incoming User Login Details :{"email":"abc@gmail.com","password":"abc123"}  
+ [INFO]:2024-05-06 18:36:25 :
+ Email Verified!
+User found : [Details]: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [INFO]:2024-05-06 18:36:25 :
+ Password Verified! 
+ [INFO]:2024-05-06 18:36:25 :
+ Token Generated Successfully! 
+ [INFO]:2024-05-06 18:36:25 :
+ [UserRoutes] : Login-user :  : End 
+ [INFO]:2024-05-06 18:36:39 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:36:39 :
+ Token Verified for the User : {"user":{"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0},"iat":1715000785,"exp":1715000905} 
+ [ERROR]:2024-05-06 18:36:39 :
+ Unauthorized [due to Role]. 
+ [INFO]:2024-05-06 18:37:17 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:37:17 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:37:30 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:37:30 :
+ Token Verified for the User : {"user":{"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0},"iat":1715000785,"exp":1715000905} 
+ [INFO]:2024-05-06 18:37:45 :
+ 
+
+[UserRoutes] : Login-user :  :
+ Incoming User Login Details :{"email":"pqr@gmail.com","password":"pqr123"}  
+ [INFO]:2024-05-06 18:37:45 :
+ Email Verified!
+User found : [Details]: {"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0} 
+ [INFO]:2024-05-06 18:37:45 :
+ Password Verified! 
+ [INFO]:2024-05-06 18:37:45 :
+ Token Generated Successfully! 
+ [INFO]:2024-05-06 18:37:45 :
+ [UserRoutes] : Login-user :  : End 
+ [INFO]:2024-05-06 18:38:01 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:38:01 :
+ Token Verified for the User : {"user":{"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0},"iat":1715000865,"exp":1715000985} 
+ [INFO]:2024-05-06 18:38:04 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:38:04 :
+ Token Verified for the User : {"user":{"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0},"iat":1715000865,"exp":1715000985} 
+ [INFO]:2024-05-06 18:38:14 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:38:14 :
+ Token Verified for the User : {"user":{"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0},"iat":1715000865,"exp":1715000985} 
+ [INFO]:2024-05-06 18:39:05 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:39:05 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:39:13 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:39:13 :
+ Token Verified for the User : {"user":{"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0},"iat":1715000865,"exp":1715000985} 
+ [INFO]:2024-05-06 18:39:16 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:39:16 :
+ Token Verified for the User : {"user":{"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0},"iat":1715000865,"exp":1715000985} 
+ [INFO]:2024-05-06 18:44:08 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:44:08 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:46:33 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:46:33 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:46:47 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:46:47 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:46:54 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:46:54 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:47:03 :
+ 
+
+[UserRoutes] : Login-user :  :
+ Incoming User Login Details :{"email":"pqr@gmail.com","password":"pqr123"}  
+ [INFO]:2024-05-06 18:47:03 :
+ Email Verified!
+User found : [Details]: {"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0} 
+ [INFO]:2024-05-06 18:47:03 :
+ Password Verified! 
+ [INFO]:2024-05-06 18:47:03 :
+ Token Generated Successfully! 
+ [INFO]:2024-05-06 18:47:03 :
+ [UserRoutes] : Login-user :  : End 
+ [INFO]:2024-05-06 18:47:21 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:47:21 :
+ Token Verified for the User : {"user":{"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0},"iat":1715001423,"exp":1715001543} 
+ [INFO]:2024-05-06 18:48:06 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:48:06 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:48:10 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:48:10 :
+ Token Verified for the User : undefined 
+ [INFO]:2024-05-06 18:48:29 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:48:29 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:48:32 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:48:32 :
+ Token Verified for the User : {"user":{"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0},"iat":1715001423,"exp":1715001543} 
+ [INFO]:2024-05-06 18:49:06 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:49:06 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:49:10 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [ERROR]:2024-05-06 18:49:10 :
+ Invalid Token or Time-Out ............ 
+ [INFO]:2024-05-06 18:49:15 :
+ 
+
+[UserRoutes] : Login-user :  :
+ Incoming User Login Details :{"email":"pqr@gmail.com","password":"pqr123"}  
+ [INFO]:2024-05-06 18:49:15 :
+ Email Verified!
+User found : [Details]: {"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0} 
+ [INFO]:2024-05-06 18:49:15 :
+ Password Verified! 
+ [INFO]:2024-05-06 18:49:15 :
+ Token Generated Successfully! 
+ [INFO]:2024-05-06 18:49:15 :
+ [UserRoutes] : Login-user :  : End 
+ [INFO]:2024-05-06 18:49:29 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:49:29 :
+ Token Verified for the User : {"user":{"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0},"iat":1715001555,"exp":1715001675} 
+ [INFO]:2024-05-06 18:49:45 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:49:45 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:49:50 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:49:50 :
+ Token Verified for the User : {"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0} 
+ [INFO]:2024-05-06 18:50:24 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:50:24 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:50:29 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:50:29 :
+ Token Verified for the User : "admin" 
+ [INFO]:2024-05-06 18:50:58 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:50:58 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:51:00 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:51:00 :
+ Token Verified for the User : "client" 
+ [INFO]:2024-05-06 18:51:17 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:51:17 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:51:19 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [ERROR]:2024-05-06 18:51:19 :
+ Invalid Token or Time-Out ............ 
+ [INFO]:2024-05-06 18:51:24 :
+ 
+
+[UserRoutes] : Login-user :  :
+ Incoming User Login Details :{"email":"pqr@gmail.com","password":"pqr123"}  
+ [INFO]:2024-05-06 18:51:25 :
+ Email Verified!
+User found : [Details]: {"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0} 
+ [INFO]:2024-05-06 18:51:25 :
+ Password Verified! 
+ [INFO]:2024-05-06 18:51:25 :
+ Token Generated Successfully! 
+ [INFO]:2024-05-06 18:51:25 :
+ [UserRoutes] : Login-user :  : End 
+ [INFO]:2024-05-06 18:51:38 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:51:38 :
+ Token Verified for the User : {"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0} 
+ [INFO]:2024-05-06 18:51:50 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:51:50 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:51:54 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:51:54 :
+ Token Verified for the User : {"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0} 
+ [INFO]:2024-05-06 18:52:30 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:52:30 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:52:33 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:52:33 :
+ Token Verified for the User : "client" 
+ [INFO]:2024-05-06 18:58:13 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 18:58:13 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 18:58:19 :
+ 
+
+[UserRoutes] : Login-user :  :
+ Incoming User Login Details :{"email":"pqr@gmail.com","password":"pqr123"}  
+ [INFO]:2024-05-06 18:58:19 :
+ Email Verified!
+User found : [Details]: {"_id":"6638a96fca3c510f0c4470d6","name":"pqr","email":"pqr@gmail.com","password":"$2b$10$BUlHxZ6sZBQaYHp65OSgdOhN2o1DjGpDSN0s2KAgU5kV8kmAbADGO","role":"client","status":"inActive","__v":0} 
+ [INFO]:2024-05-06 18:58:19 :
+ Password Verified! 
+ [INFO]:2024-05-06 18:58:19 :
+ Token Generated Successfully! 
+ [INFO]:2024-05-06 18:58:19 :
+ [UserRoutes] : Login-user :  : End 
+ [INFO]:2024-05-06 18:58:31 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:58:31 :
+ Token Verified for the User : "client" 
+ [ERROR]:2024-05-06 18:58:31 :
+ Unauthorized [due to Role]. 
+ [INFO]:2024-05-06 18:58:50 :
+ 
+
+[UserRoutes] : Login-user :  :
+ Incoming User Login Details :{"email":"abc@gmail.com","password":"abc123"}  
+ [INFO]:2024-05-06 18:58:50 :
+ Email Verified!
+User found : [Details]: {"_id":"6638a914c3e52e1e4095b288","name":"abc","email":"abc@gmail.com","password":"$2b$10$8VjGBUdte56bbwA8vRjrL.s9CM5QEw.PDvTictGUJTTj6qE2iB5Oa","role":"admin","status":"active","__v":0} 
+ [INFO]:2024-05-06 18:58:50 :
+ Password Verified! 
+ [INFO]:2024-05-06 18:58:50 :
+ Token Generated Successfully! 
+ [INFO]:2024-05-06 18:58:50 :
+ [UserRoutes] : Login-user :  : End 
+ [INFO]:2024-05-06 18:59:08 :
+ 
+
+Activating Middleware for Authenticate Token..
+ 
+ [INFO]:2024-05-06 18:59:08 :
+ Token Verified for the User : "admin" 
+ [INFO]:2024-05-06 19:09:02 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 19:09:02 :
+  Database [MongoDb] connected successfully .... 
+ [INFO]:2024-05-06 19:15:08 :
+ Server is running on PORT : 3000  
+ [INFO]:2024-05-06 19:15:08 :
+  Database [MongoDb] connected successfully .... 

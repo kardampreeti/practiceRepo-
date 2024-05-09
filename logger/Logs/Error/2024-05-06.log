@@ -1,0 +1,88 @@
+ [ERROR]:2024-05-06 12:54:23 :
+ [UserRoutes] : Update-User :  : Error : TypeError: User.patch is not a function 
+ [ERROR]:2024-05-06 13:06:51 :
+ [UserRoutes] : Update-User :  : Error : ReferenceError: userId is not defined 
+ [ERROR]:2024-05-06 13:10:26 :
+ [UserRoutes] : Update-User :  : Error : MongoServerError: Plan executor error during findAndModify :: caused by :: Performing an update on the path '_id' would modify the immutable field '_id' 
+ [ERROR]:2024-05-06 13:23:38 :
+ [UserRoutes] : Update-User :  : Error : CastError: Cast to ObjectId failed for value "66388b34db32f0cda5824fcpk1" (type string) at path "_id" for model "User" 
+ [ERROR]:2024-05-06 13:31:23 :
+ [UserRoutes] : Update-User :  : Error : CastError: Cast to ObjectId failed for value "66388b34db32f0cda5824fcpk1" (type string) at path "_id" for model "User" 
+ [ERROR]:2024-05-06 13:34:11 :
+ [UserRoutes] : Update-User :  : Error : ReferenceError: userid is not defined 
+ [ERROR]:2024-05-06 13:34:40 :
+ [UserRoutes] : Update-User :  : Error : ReferenceError: id is not defined 
+ [ERROR]:2024-05-06 13:34:42 :
+ [UserRoutes] : Update-User :  : Error : ReferenceError: id is not defined 
+ [ERROR]:2024-05-06 13:52:14 :
+ [UserRoutes] : Update-User :  : Error : CastError: Cast to ObjectId failed for value "{ id: 'id=6638930772562fd754c14380' }" (type Object) at path "_id" for model "User" 
+ [ERROR]:2024-05-06 13:58:12 :
+ [UserRoutes] : Update-User :  : Error : CastError: Cast to ObjectId failed for value "{ id: 'id=6638930772562fd754c14380' }" (type Object) at path "_id" for model "User" 
+ [ERROR]:2024-05-06 13:58:58 :
+ [UserRoutes] : Update-User :  : Error : CastError: Cast to ObjectId failed for value "{ id: '6638930772562fd754c14380' }" (type Object) at path "_id" for model "User" 
+ [ERROR]:2024-05-06 14:00:00 :
+ [UserRoutes] : Update-User :  : Error : CastError: Cast to ObjectId failed for value "{ id: '6638930772562fd754c14380' }" (type Object) at path "_id" for model "User" 
+ [ERROR]:2024-05-06 14:08:39 :
+ [UserRoutes] : Update-User :  : Error : CastError: Cast to ObjectId failed for value "{ id: '6638930772562fd754c14380' }" (type Object) at path "_id" for model "User" 
+ [ERROR]:2024-05-06 15:20:09 :
+ [UserRoutes] : create-newUser :  : Error : ReferenceError: bcrypt is not defined 
+ [ERROR]:2024-05-06 15:23:06 :
+ [UserRoutes] : create-newUser :  : Error : ReferenceError: bcrypt is not defined 
+ [ERROR]:2024-05-06 15:26:00 :
+ [UserRoutes] : create-newUser :  : Error : ValidationError: status: `inActive` is not a valid enum value for path `status`. 
+ [ERROR]:2024-05-06 15:46:35 :
+ [UserRoutes] : Find-User :  : Error : CastError: Cast to ObjectId failed for value "login" (type string) at path "_id" for model "User" 
+ [ERROR]:2024-05-06 16:07:12 :
+ [UserRoutes] : create-newUser :  : Error : ReferenceError: bcrypt is not defined 
+ [ERROR]:2024-05-06 16:08:23 :
+ [UserRoutes] : create-newUser :  : Error : ReferenceError: jwt is not defined 
+ [ERROR]:2024-05-06 17:20:26 :
+ Invalid Token ............ 
+ [ERROR]:2024-05-06 17:27:02 :
+ Invalid Token ............ 
+ [ERROR]:2024-05-06 17:30:30 :
+ Unauthorized [due to Role]. 
+ [ERROR]:2024-05-06 17:36:53 :
+ Unauthorized [due to Role]. 
+ [ERROR]:2024-05-06 17:39:18 :
+ Unauthorized [due to Role]. 
+ [ERROR]:2024-05-06 17:40:23 :
+ Unauthorized [due to Role]. 
+ [ERROR]:2024-05-06 17:40:29 :
+ Unauthorized [due to Role]. 
+ [ERROR]:2024-05-06 17:46:51 :
+ Invalid Token ............ 
+ [ERROR]:2024-05-06 17:47:15 :
+ Unauthorized [due to Role]. 
+ [ERROR]:2024-05-06 18:07:41 :
+ Invalid Token ............ 
+ [ERROR]:2024-05-06 18:08:06 :
+ Invalid Token ............ 
+ [ERROR]:2024-05-06 18:08:11 :
+ Invalid Token ............ 
+ [ERROR]:2024-05-06 18:09:44 :
+ Invalid Token ............ 
+ [ERROR]:2024-05-06 18:10:33 :
+ Invalid Token ............ 
+ [ERROR]:2024-05-06 18:11:59 :
+ Invalid Token ............ 
+ [ERROR]:2024-05-06 18:12:25 :
+ Invalid Token ............ 
+ [ERROR]:2024-05-06 18:13:24 :
+ Invalid Token ............ 
+ [ERROR]:2024-05-06 18:28:56 :
+ Invalid Token ............ 
+ [ERROR]:2024-05-06 18:31:06 :
+ Invalid Token[Time - out ] ............ 
+ [ERROR]:2024-05-06 18:34:48 :
+ Invalid Token or Time-Out ............ 
+ [ERROR]:2024-05-06 18:35:22 :
+ Unauthorized [due to Role]. 
+ [ERROR]:2024-05-06 18:36:39 :
+ Unauthorized [due to Role]. 
+ [ERROR]:2024-05-06 18:49:10 :
+ Invalid Token or Time-Out ............ 
+ [ERROR]:2024-05-06 18:51:19 :
+ Invalid Token or Time-Out ............ 
+ [ERROR]:2024-05-06 18:58:31 :
+ Unauthorized [due to Role]. 

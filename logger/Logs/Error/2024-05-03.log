@@ -1,0 +1,22 @@
+ [ERROR]:2024-05-03 17:50:29 :
+ [UserRoutes] : create-newUser :  : Error : MongoServerError: E11000 duplicate key error collection: UserAuthentication.users index: email_1 dup key: { email: "abc@gmail.com" } 
+ [ERROR]:2024-05-03 18:00:03 :
+ [UserRoutes] : create-newUser :  : Error : MongoServerError: E11000 duplicate key error collection: UserAuthentication.users index: email_1 dup key: { email: "abc@gmail.com" } 
+ [ERROR]:2024-05-03 18:02:48 :
+ [UserRoutes] : create-newUser :  : Error : MongoServerError: E11000 duplicate key error collection: UserAuthentication.users index: email_1 dup key: { email: "pqr@gmail.com" } 
+ [ERROR]:2024-05-03 18:03:11 :
+ [UserRoutes] : create-newUser :  : Error : ValidationError: role: Path `role` is required. 
+ [ERROR]:2024-05-03 18:05:25 :
+ [UserRoutes] : create-newUser :  : Error : ValidationError: role: Path `role` is required. 
+ [ERROR]:2024-05-03 18:09:51 :
+ [UserRoutes] : create-newUser :  : Error : ValidationError: role: Path `role` is required. 
+ [ERROR]:2024-05-03 18:10:16 :
+ [UserRoutes] : create-newUser :  : Error : ValidationError: name: Path `name` is required. 
+ [ERROR]:2024-05-03 18:10:24 :
+ [UserRoutes] : create-newUser :  : Error : ValidationError: name: Path `name` is required., password: Path `password` is required. 
+ [ERROR]:2024-05-03 18:10:54 :
+ [UserRoutes] : create-newUser :  : Error : ValidationError: role: `student` is not a valid enum value for path `role`. 
+ [ERROR]:2024-05-03 18:11:10 :
+ [UserRoutes] : create-newUser :  : Error : MongoServerError: E11000 duplicate key error collection: UserAuthentication.users index: email_1 dup key: { email: "pqr@gmail.com" } 
+ [ERROR]:2024-05-03 18:30:56 :
+ [UserRoutes] : Find-User :  : Error : CastError: Cast to ObjectId failed for value "{}" (type Object) at path "_id" for model "User" 

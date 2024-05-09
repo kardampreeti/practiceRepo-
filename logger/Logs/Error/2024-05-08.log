@@ -1,0 +1,12 @@
+ [ERROR]:2024-05-08 10:59:38 :
+ Error : JsonWebTokenError: invalid token 
+ [ERROR]:2024-05-08 11:10:49 :
+ invalid signature 
+ [ERROR]:2024-05-08 11:11:45 :
+ invalid signature 
+ [ERROR]:2024-05-08 11:15:44 :
+ invalid signature 
+ [ERROR]:2024-05-08 11:16:59 :
+ jwt expired 
+ [ERROR]:2024-05-08 11:18:37 :
+ Unauthorized with Role : client 
